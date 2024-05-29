@@ -19,7 +19,7 @@
 }
 
 
-.body{
+body{
 
     background-color: var(--cor-de-fundo);
     text-align: center;
@@ -34,7 +34,7 @@
     font-style: normal;
     font-optical-sizing: auto;
     font-family: "Raleway", sans-serif;
-    
+
 }
 
 .subtitulo{
