@@ -85,9 +85,13 @@ body{
 }
 
 #campo-senha:focus{
-
     outline: none;
-
+    background-color: var(--fundo-texto);
+    border: none;
+    color: var(--cor-de-texto);
+    font-size: 40px;
+    margin-left: 20px;
+    width: 70%;
 }
 
 .parametro--coluna-senha{
@@ -95,6 +99,12 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
+.parametro--senha{
+    width: 50%;
+    margin: 0 auto;
+}
+
 
 @media screen and (min-width: 768px){
 
